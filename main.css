@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://as1.ftcdn.net/jpg/05/57/57/10/360_F_557571000_c0c77CqHS1FR9AhqmtcEw82TEjRuwHOl.jpg");
+    background-repeat: no-repeat;
+    background-size: 98%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #f1d21e;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #09dd09;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.timer, .stopwatch {
+  text-align: center;
+}
+
+button {
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555555;
+}

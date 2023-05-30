@@ -1,0 +1,54 @@
+body {
+  font-family: 'Times new roman', cursive;
+  background-image: url("https://images.pond5.com/timer-animation-and-countdown-footage-088399982_prevstill.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #010101;
+  font-size: 60px;
+}
+p{
+        color: #070707;
+        font-size: 30px;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 32px;
+  border-radius: 4px;
+}
+
+.time:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+
